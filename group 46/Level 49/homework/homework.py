@@ -30,7 +30,7 @@ def get_size(w, h, d):
 # Find min and max
 
 def get_min_max(seq):
-    return (min(seq), max(seq)) if seq else (None, None)
+    return (min(seq), max(seq))
 
 # 4
 
