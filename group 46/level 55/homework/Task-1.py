@@ -13,3 +13,7 @@ for key, value in my_dict.items():
 
 print("Keys:", keys_list)
 print("Values:", values_list)
+
+
+
+
