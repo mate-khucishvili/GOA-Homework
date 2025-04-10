@@ -35,7 +35,30 @@ def longest(a1, a2):
 
 # დამატებითი 5-ცალი 8kyu
 
+# 1 - Multiply
+def multiply(a, b):
+    a * b
 
+# 2 - Even or Odd
+def even_or_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+    
+# 3 - Convert a Number to a String!
+def number_to_string(num):
+    return(str(num))
+
+# 4 - Reversed Strings
+def solution(string):
+    return string[:: -1 ]
+
+# 5 - Return Negative
+def make_negative(number):
+    if number > 0:
+        return -number
+    return number
 
 
 
